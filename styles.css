@@ -13,8 +13,8 @@ body {
 }
 
 .profile-picture {
-    width: 150px;
-    height: 150px;
+    width: 225px;
+    height: 225px;
     border-radius: 50%;
     margin-bottom: 10px;
 }
@@ -30,7 +30,7 @@ body {
 }
 
 .navigation {
-    background-color: #333;
+    background-color: rgb(190, 190, 249);
     padding: 10px 0;
 }
 
@@ -62,18 +62,22 @@ body {
 
 .recent-posts {
     padding: 20px;
+    text-align: center; 
 }
 
 .post {
+    display: inline-block; 
     margin-bottom: 20px;
 }
 
 .post-image {
-    width: 100%;
+    width: 100%; 
+    max-width: 400px; 
     border-radius: 5px;
 }
 
 .post-text {
     margin-top: 10px;
     font-size: 18px;
+    text-align: center; 
 }
